@@ -1,0 +1,8 @@
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.csproj.AssemblyReference.cache
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/rpswa.dswa.cache.json
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.GeneratedMSBuildEditorConfig.editorconfig
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.AssemblyInfoInputs.cache
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.AssemblyInfo.cs
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.csproj.CoreCompileInputs.cache
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.MvcApplicationPartsAssemblyInfo.cs
+/home/archlinux/Downloads/todolist/obj/Debug/net8.0/todolist.MvcApplicationPartsAssemblyInfo.cache

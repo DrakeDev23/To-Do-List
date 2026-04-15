@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.box {
+    background: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 8px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    text-align: left;
+    margin-top: 10px;
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+li button {
+    float: right;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
