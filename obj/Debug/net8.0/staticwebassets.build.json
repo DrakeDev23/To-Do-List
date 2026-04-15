@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "0zpCQOIHDW1268Xnnf7+S8x8xiOtekgu3NvUyZbG4dU=",
+  "Source": "todolist",
+  "BasePath": "_content/todolist",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "todolist/wwwroot",
+      "Source": "todolist",
+      "ContentRoot": "/home/archlinux/Downloads/todolist/wwwroot/",
+      "BasePath": "_content/todolist",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/archlinux/Downloads/todolist/wwwroot/css/style.css",
+      "SourceId": "todolist",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/archlinux/Downloads/todolist/wwwroot/",
+      "BasePath": "_content/todolist",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/home/archlinux/Downloads/todolist/wwwroot/index.html",
+      "SourceId": "todolist",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/archlinux/Downloads/todolist/wwwroot/",
+      "BasePath": "_content/todolist",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/archlinux/Downloads/todolist/wwwroot/js/app.js",
+      "SourceId": "todolist",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/archlinux/Downloads/todolist/wwwroot/",
+      "BasePath": "_content/todolist",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/app.js"
+    }
+  ]
+}

@@ -13,32 +13,50 @@ body {
     box-shadow: 0 0 10px gray;
 }
 
-input {
-    padding: 8px;
-    width: 70%;
+.input-group {
+    display: flex;
+    margin-top: 10px;
 }
 
-button {
+.input-group input {
+    flex: 1;
     padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.input-group button {
+    padding: 8px 12px;
     background: red;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
     text-align: left;
     margin-top: 10px;
     background: #eee;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 li button {
-    float: right;
     background: red;
     color: white;
     border: none;
     cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 3px;
 }

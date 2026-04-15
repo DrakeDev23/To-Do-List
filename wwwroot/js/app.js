@@ -1,50 +1,52 @@
-const taskInput = document.getElementById("taskInput");
-const addBtn = document.getElementById("addBtn");
-const taskList = document.getElementById("taskList");
+document.addEventListener("DOMContentLoaded", () => {
 
-const API = "/api/tasks";
+    const taskInput = document.getElementById("taskInput");
+    const addBtn = document.getElementById("addBtn");
+    const taskList = document.getElementById("taskList");
 
-async function loadTasks() {
-    const res = await fetch(API);
-    const tasks = await res.json();
+    const API = "/api/tasks";
 
-    taskList.innerHTML = "";
+    async function loadTasks() {
+        const res = await fetch(API);
+        const tasks = await res.json();
 
-    tasks.forEach(task => {
-        const li = document.createElement("li");
+        taskList.innerHTML = "";
 
-        li.innerHTML = `
-            ${task.name}
-            <button onclick="deleteTask(${task.id})">X</button>
-        `;
+        tasks.forEach(task => {
+            const li = document.createElement("li");
 
-        taskList.appendChild(li);
+            li.innerHTML = `
+                <span>${task.name}</span>
+                <button onclick="deleteTask(${task.id})">X</button>
+            `;
+
+            taskList.appendChild(li);
+        });
+    }
+
+    addBtn.addEventListener("click", async () => {
+        const name = taskInput.value.trim();
+        if (!name) return;
+
+        await fetch(API, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ name })
+        });
+
+        taskInput.value = "";
+        loadTasks();
     });
-}
 
-addBtn.addEventListener("click", async () => {
-    const name = taskInput.value.trim();
+    window.deleteTask = async function (id) {
+        await fetch(`${API}/${id}`, {
+            method: "DELETE"
+        });
 
-    if (!name) return;
+        loadTasks();
+    };
 
-    await fetch(API, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ name })
-    });
-
-    taskInput.value = "";
     loadTasks();
 });
-
-async function deleteTask(id) {
-    await fetch(`${API}/${id}`, {
-        method: "DELETE"
-    });
-
-    loadTasks();
-}
-
-loadTasks();

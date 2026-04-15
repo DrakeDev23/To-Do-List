@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/archlinux/Downloads/todolist/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/home/archlinux/Downloads/todolist/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/archlinux/Downloads/todolist/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.todolist.props",
+      "PackagePath": "build\\todolist.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.todolist.props",
+      "PackagePath": "buildMultiTargeting\\todolist.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.todolist.props",
+      "PackagePath": "buildTransitive\\todolist.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.todolist.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
